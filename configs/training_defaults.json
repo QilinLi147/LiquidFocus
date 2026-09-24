@@ -1,0 +1,25 @@
+{
+  "architecture": {
+    "bands": 5,
+    "candidate_weight": 0.25,
+    "channels": 62,
+    "dropout": 0.1,
+    "max_residual": 0.1,
+    "policy_weight": 0.5,
+    "prefixes": 10,
+    "regions": 7,
+    "safety_weight": 1.0,
+    "state_width": 64
+  },
+  "optimization": {
+    "batch_size": 128,
+    "epochs": 30,
+    "label_smoothing": 0.04,
+    "learning_rate": 0.0003,
+    "minimum_epochs": 8,
+    "optimizer": "AdamW",
+    "patience": 6,
+    "scheduler": "cosine",
+    "weight_decay": 0.0001
+  }
+}
